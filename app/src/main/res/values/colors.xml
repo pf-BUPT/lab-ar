@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textviewBg">#c8fefbfb</color>
+    <color name="fontColor_white">#f7f3f3</color>
+    <color name="fontColor_listitem">#fb4b0b</color>
+    <color name="fontColor_black">#fb171717</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="inactive">#c0979696</color>
+    <color name="active">#fcfcfc</color>
+</resources>

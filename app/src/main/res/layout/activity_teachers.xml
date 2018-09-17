@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textView_teachers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Welcome to 640"
+            android:visibility="visible"
+            android:textColor="@color/fontColor_white"
+            android:background="@color/textviewBg"/>
+    </ScrollView>
+
+    <ListView
+        android:id="@+id/list_view_teachers"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></ListView>
+
+    <ViewFlipper
+        android:id="@+id/flipper_teachers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        ></ViewFlipper>
+</RelativeLayout>

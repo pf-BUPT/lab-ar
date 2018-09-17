@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="left"
+        android:text="11111111111111111111111111111111"
+        android:visibility="visible"
+        android:typeface="serif"
+        android:textSize="19dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/textviewBg"
+        />
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar_more"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:bb_inActiveTabColor="#222222"
+        app:bb_activeTabColor="@color/colorPrimary"
+        app:bb_tabXmlResource="@xml/bottombar_tabs_five" />
+
+
+</RelativeLayout>

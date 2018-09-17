@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+<tab
+    id="@+id/tab_scan"
+    icon="@drawable/ic_scan"
+    title="scan"
+    barColorWhenSelected="#fa751c" />
+
+<tab
+    id="@+id/tab_document"
+    icon="@drawable/ic_document"
+    title="document"
+    barColorWhenSelected="#dd21a9f2" />
+
+</tabs>

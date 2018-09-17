@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Lab_AR</string>
+    <string-array name="teacher_model2">
+        <item>教师一览</item>
+        <item>招生/调剂信息</item>
+    </string-array>
+    <string-array name="allteacher">
+        <item>寿国础</item>
+        <item>郭志刚</item>
+        <item>胡怡红</item>
+        <item>高泽华</item>
+        <item>孙文生</item>
+        <item>刘雅琼</item>
+    </string-array>
+    <string-array name="allbooks">
+        <item>网络功能虚拟化(nfv)</item>
+        <item>TD-LTE技术标准与实践</item>
+        <item>室内分布系统规划与设计</item>
+        <item>通信行业标准</item>
+        <item>发明专利证书</item>
+    </string-array>
+    <string-array name="allwicloud">
+        <item>系统概况图</item>
+        <item>远端服务器与MEC对比</item>
+        <item>楼宇拥挤状态图</item>
+        <item>人流量统计图</item>
+        <item>手机品牌占比统计图</item>
+        <item>手机用户轨迹规律图</item>
+        <item>wicloud校园场景应用图</item>
+        <item>李洪星学长</item>
+        <item>众测QoE</item>
+    </string-array>
+
+    <string-array name="allresearch">
+        <item>人脸识别</item>
+        <item>操作交换机</item>
+        <item>iMAN网管系统</item>
+        <item>专注科研</item>
+        <item>PM2.5</item>
+        <item>芯片</item>
+        <item>增强现实</item>
+        <item>网络规划</item>
+    </string-array>
+    <string-array name="allstudent">
+        <item>IEEE</item>
+        <item>斯坦福大学访问</item>
+        <item>王博楠学长</item>
+        <item>李洪星学长</item>
+    </string-array>
+</resources>
+

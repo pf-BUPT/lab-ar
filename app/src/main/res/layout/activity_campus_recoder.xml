@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:bb_activeTabColor="@color/active"
+        app:bb_behavior="shifting|underNavbar"
+        app:bb_inActiveTabColor="@color/inactive"
+        app:bb_tabXmlResource="@xml/bottombar_tabs_five"
+        />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/radius_corner"
+        android:paddingBottom="30dp"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+<!--<VideoView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="150dp"-->
+    <!--android:id="@+id/videoView"/>-->
+            <ViewFlipper
+                android:id="@+id/flipper"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                ></ViewFlipper>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/flipper"
+                android:gravity="left"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:paddingTop="5dp"
+                android:text="welcome to 640"
+                android:textColor="@color/fontColor_white"
+                android:textSize="19dp"
+                android:typeface="serif"
+                android:visibility="visible" />
+
+            <Button
+                android:layout_below="@+id/textView"
+                android:text="点击观看视频"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button"
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
